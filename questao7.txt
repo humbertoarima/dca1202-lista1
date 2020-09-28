@@ -1,0 +1,15 @@
+7. Considerando a declaração int mat[4], *p, x;, quais das seguintes expressões são válidas?
+Justifique.
+p = mat + 1;
+p = mat++;
+p = ++mat;
+x = (*mat)++;
+
+Resposta:
+As explessões válidas são:
+p = mat + 1; // está sendo atribuído a 'p' o endereço de memoria da posição 1 do vetor mat
+x = (*mat)++; // está sendo atribuído a 'x' o valor contido no endereço de memoria da posição 0 do vetor mat. Após a atribuiçao o valor da posição mat[0] é incrementado em uma unidade.
+
+As explessões invválidas são:
+p = mat++; // pois não se pode usar a operçao de incremento para incrementar o endereço de memoria
+p = ++mat;// pois não se pode usar a operçao de incremento para incrementar o endereço de memoria
