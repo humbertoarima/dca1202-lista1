@@ -1,0 +1,3 @@
+Um ponteiro para uma função é a possibilidade de fazer com que uma variável do tipo ponteiro 
+aponte para o endereço de uma função, o que permite que essa função seja chamada (e, consequentemente, suas operações) através do ponteiro. 
+Diferentemente de um ponteiro comum, o ponteiro para função aponta para código, e não para dados.
