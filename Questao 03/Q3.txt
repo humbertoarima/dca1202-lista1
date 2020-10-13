@@ -1,0 +1,10 @@
+3. Se i e j são variáveis inteiras e p e q ponteiros para int, quais das seguintes expressões de atribuição são ilegais?
+
+p = i; // ilegal - erro de compilação
+q = &j; // legal - q recebe a referencia de j
+p = &*&i; // legal - retorna a referencia de i
+i = (*&)j; // ilegal - erro de compilação
+i = *&j; // compila i recebe o valor da refencia de j(obs)
+i = *&*&j; // compila i recebe o valor da refencia de j(obs)
+q = *p; // ilegal - não compila pois *p retorna um int e p espera receber um endereço de memoria
+i = (*p)++ + *q;// legal- imprime o valor para onde p aponta somado com o valor para onde q aponta 
