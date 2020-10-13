@@ -1,0 +1,21 @@
+8. O que fazem os seguintes programas em C?
+
+int main(){
+int vet[] = {4,9,13};
+int i;
+for(i=0;i<3;i++){
+printf("%d ",*(vet+i));
+}
+}
+//Resposta:
+Imprime os valores contidos no vetor vet
+
+int main(){
+int vet[] = {4,9,13};
+int i;
+for(i=0;i<3;i++){
+printf("%X ",vet+i);
+}
+}
+//Resposta:
+Imprime as referencias de memoria em hexadecimal de cada valor contido no vetor vet
