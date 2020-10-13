@@ -1,0 +1,1 @@
+Em todos os casos no programa implementado, os endereços de memória foram incrementados de acordo com número de bytes ocupados por elementos dos tipos específicos (char (1 byte); int (2 bytes), float (4 bytes), double (8 bytes). Dessa forma, o comportamento observado é identico àquele esperado na Questao 9
