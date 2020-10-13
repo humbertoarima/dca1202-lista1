@@ -23,7 +23,7 @@ int main()
     int i, nValores, (*ponteiro)(); // declaraçao das variaveis i e nValores do tipo inteiro
     ponteiro = ordenaCrescente; /// ponteiro para função
     printf("Quantos valores voce quer digitar?\n"); // imprime a mensagem "Quantos valores voce quer digitar?" em seguida da um enter
-    scanf("%d", &nValores); // capita o valor digitado pelo usuario e atribui ao endereço de memoria da variavel nValores
+    scanf("%d", &nValores); // capta o valor digitado pelo usuario e atribui ao endereço de memoria da variavel nValores
     v = (float*) malloc(nValores * sizeof(float)); // pega o tipo do valor a ser guardado vezes a quantidade de valores e aloca um espaço de memoria para a ser usada pela variavel ponteiro v
     for (i=0; i<nValores; i++){ // itera os i de '0' até (nValores-1)
         printf("Digite o valor para a posicao: %d\n", i);//imprime a mensagem "Digite o valor para a posicao: e a posicão de 'i'" em seguida da um enter
